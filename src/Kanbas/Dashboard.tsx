@@ -8,7 +8,7 @@ export default function Dashboard() {
         <div className="wd-dashboard-course">
           <Link className="wd-dashboard-course-link"
                 to="/Kanbas/Courses/1234/Home">
-            <img src="/images/reactjs.jpg" width={200} />
+            <img src="/images/reactjs.jpg" alt="" width={200} />
             <div>
               <h5>
                  CS1234 React JS
@@ -20,10 +20,119 @@ export default function Dashboard() {
             </div>
           </Link>
         </div>
-        <div className="wd-dashboard-course"> ... </div>
-        <div className="wd-dashboard-course"> ... </div>
+
+        <div className="wd-dashboard-course">
+          <Link className="wd-dashboard-course-link"
+                to="/Kanbas/Courses/1235/Home">
+            <img src="/images/reactjs.jpg" alt="" width={200} />
+            <div>
+              <h5>
+                 CS1235 Python
+              </h5>
+              <p className="wd-dashboard-course-title">
+                Software developer
+              </p>
+              <button> Go </button>
+            </div>
+          </Link>
+        </div>
+
+        <div className="wd-dashboard-course">
+          <Link className="wd-dashboard-course-link"
+                to="/Kanbas/Courses/1236/Home">
+            <img src="/images/reactjs.jpg" alt="" width={200} />
+            <div>
+              <h5>
+                 CS1236 Java
+              </h5>
+              <p className="wd-dashboard-course-title">
+                Software developer
+              </p>
+              <button> Go </button>
+            </div>
+          </Link>
+        </div>
+
+        <div className="wd-dashboard-course">
+          <Link className="wd-dashboard-course-link"
+                to="/Kanbas/Courses/1237/Home">
+            <img src="/images/reactjs.jpg" alt="" width={200} />
+            <div>
+              <h5>
+                 CS1237 Computer Network
+              </h5>
+              <p className="wd-dashboard-course-title">
+                Software developer
+              </p>
+              <button> Go </button>
+            </div>
+          </Link>
+        </div>
+
+        <div className="wd-dashboard-course">
+          <Link className="wd-dashboard-course-link"
+                to="/Kanbas/Courses/1238/Home">
+            <img src="/images/reactjs.jpg" alt="" width={200} />
+            <div>
+              <h5>
+                 CS1238 Operating System
+              </h5>
+              <p className="wd-dashboard-course-title">
+                Software developer
+              </p>
+              <button> Go </button>
+            </div>
+          </Link>
+        </div>
+
+        <div className="wd-dashboard-course">
+          <Link className="wd-dashboard-course-link"
+                to="/Kanbas/Courses/1239/Home">
+            <img src="/images/reactjs.jpg" alt="" width={200} />
+            <div>
+              <h5>
+                 CS1239 Software Engineering
+              </h5>
+              <p className="wd-dashboard-course-title">
+                Software developer
+              </p>
+              <button> Go </button>
+            </div>
+          </Link>
+        </div>
+
+        <div className="wd-dashboard-course">
+          <Link className="wd-dashboard-course-link"
+                to="/Kanbas/Courses/1240/Home">
+            <img src="/images/reactjs.jpg" alt="" width={200} />
+            <div>
+              <h5>
+                 CS1240 Data structure
+              </h5>
+              <p className="wd-dashboard-course-title">
+                Software developer
+              </p>
+              <button> Go </button>
+            </div>
+          </Link>
+        </div>
+
+        <div className="wd-dashboard-course">
+          <Link className="wd-dashboard-course-link"
+                to="/Kanbas/Courses/1241/Home">
+            <img src="/images/reactjs.jpg" alt="" width={200} />
+            <div>
+              <h5>
+                 CS1241 Principles of Database System
+              </h5>
+              <p className="wd-dashboard-course-title">
+                Software developer
+              </p>
+              <button> Go </button>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );
 }
-
