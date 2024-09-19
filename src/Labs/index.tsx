@@ -7,6 +7,9 @@ export default function Labs() {
   return (
     <div>
       <h1>Labs</h1>
+      <h2>Name: Lihan Cai</h2>
+      <h2>Section: SEC 01 Fall 2024</h2>
+      <a href="https://github.com/LihanCai/kanbas-react-web-app" target="_blank">Lihan Cai's Source Code Repository</a>
       <TOC />
       <Routes>
         <Route path="/" element={<Navigate to="Lab1" />} />
