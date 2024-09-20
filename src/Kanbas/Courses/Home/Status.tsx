@@ -1,5 +1,4 @@
 import React from 'react';
-import './Status.css'; // 确保你的 CSS 文件导入了
 
 export default function CourseStatus() {
     return (
@@ -8,12 +7,20 @@ export default function CourseStatus() {
             <div className="button-group">
                 <button>Unpublish</button>
                 <button>Publish</button>
+                <br/>
+                <br/>
                 <button>Import Existing Content</button>
+                <br/>
                 <button>Import from Commons</button>
+                <br/>
                 <button>Choose Home Page</button>
+                <br/>
                 <button>View Course Stream</button>
+                <br/>
                 <button>New Announcement</button>
+                <br/>
                 <button>New Analytics</button>
+                <br/>
                 <button>View Course Notifications</button>
             </div>
         </div>
